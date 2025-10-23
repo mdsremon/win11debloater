@@ -3,7 +3,7 @@ Filename: win11_privacy_debloater.ps1
 
 To run the file without downloading run bellow command in admin powershell window
 
-`iwr -useb https://raw.githubusercontent.com/username/repo/main/win11_privacy_debloater.ps1 | iex`
+`iwr -useb https://github.com/mdsremon/win11debloater/blob/main/win11_privacy_debloater.ps1 | iex`
 
 What it does (APPLY mode — default):
 - Stops & disables telemetry services (DiagTrack, dmwappushservice)
