@@ -25,6 +25,26 @@ IMPORTANT:
 - This script aims to be conservative and reversible. However, keep a system restore point and backup important data before running.
 
 
-Usage:
-- To apply: Right-click -> Run with PowerShell (Admin) or: .\win11_privacy_debloater.ps1
-- To restore: .\win11_privacy_debloater.ps1 -Restore
+How to use it:
+
+Open PowerShell as Administrator.
+
+Save the canvas file as win11_privacy_debloater.ps1 (it’s already available in the canvas panel).
+
+To apply the privacy hardening, run:
+
+`.\win11_privacy_debloater.ps1`
+
+
+To restore changes made by the script, run:
+
+`.\win11_privacy_debloater.ps1 -Restore`
+
+
+Notes:
+
+The script creates a timestamped backup under %ProgramData%\Win11PrivacyBackup\ before making changes and attempts to restore from that backup when run with -Restore.
+
+Review the script once (it’s in the canvas) before running. I included conservative defaults and comments where potentially destructive actions (like uninstalling OneDrive) are intentionally left commented out for safety.
+
+Reboot after running for all changes to take effe
