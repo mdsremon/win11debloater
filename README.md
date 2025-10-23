@@ -2,6 +2,7 @@ Windows 11 Privacy / Debloat Script
 Filename: win11_privacy_debloater.ps1
 
 To run the file without downloading run bellow command in admin powershell window
+```powershell
 `iwr -useb https://raw.githubusercontent.com/username/repo/main/win11_privacy_debloater.ps1 | iex`
 
 What it does (APPLY mode — default):
